@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ; 
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0)),url(fundo-branco8-1024x548.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 1900px;
+    margin: auto;
+}
+
+ul{
+    float: right; 
+    list-style-type: none ;
+    margin-bottom: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+ul li.active a{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+}
+
+ul li.Service a{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+}
+
+ul li.Galeria a{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+}
+
+ul li.About a{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+}
+
+ul li.Contacto a{
+    background-color: rgb(255, 255, 255);
+    color:#000;
+}
+
+
+
+.logo img{
+    float: left;
+    width: 50px;
+    height: right; 
+}
+
+.main {
+    max-width: 1900px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button {
+    position: relative;
+    top: 50%;
+    left: 70%;   
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 2px solid #fff;
+    padding: 30px 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+
