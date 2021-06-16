@@ -19,7 +19,7 @@
             </ul>
         </div>
         <div class="button">
-            <a href="#" class="btn">Livros</a>
+            <a href="card.php" class="btn">Livros</a>
             <a href="#" class="btn">Requisitar</a>
             <a href="conta.php" class="btn">Minha Conta</a>
         </div>
